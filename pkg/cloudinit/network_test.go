@@ -83,9 +83,6 @@ const (
       dhcp6: false
       addresses:
         - 196.168.100.124/24
-      routes:
-        - to: 0.0.0.0/0
-          via: 196.168.100.254
       nameservers:
         addresses:
           - '8.8.8.8'
@@ -218,9 +215,6 @@ const (
       dhcp6: false
       addresses:
         - 196.168.100.124/24
-      routes:
-        - to: 0.0.0.0/0
-          via: 196.168.100.254
       nameservers:
         addresses:
           - '8.8.8.8'
